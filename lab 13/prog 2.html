@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Concert Details</title>
+	<style type="text/css">
+		.* {
+			box-sizing: border-box;
+		}
+
+		body {
+			height: 100vh;
+			width: 100%;
+		}
+
+		.mainpage {
+/*			border: 3px solid black;*/
+			height: 120%;
+			width: 100%;
+			background-color: dimgray;
+		}
+		.titlebar{
+/*			border: 2px solid black;*/
+			height: 10%;
+			width: 100%;
+			background-color: black;
+			color: white;
+		}
+		.manu{
+			color: white;
+			float: right;
+			display: flex;
+			flex-direction: row;
+			margin-left: 550px;
+			gap: 10px;
+			margin-top: 0px;
+		}
+		.option{
+			margin-bottom: 10px;
+		}
+		#download{
+			height: 40px;
+			width: 200px;
+			background-color: skyblue;
+			color: white;
+			border-radius: 50px;
+			font-size: 15px;
+			border-color: skyblue;
+		}
+		.logo{
+			float: left;
+			height: 200px;
+			width: 50px;
+			font-size0: 45px;
+			text-align: bottom;
+			display: flex;
+			justify-content: space-between;
+			gap: 5px;
+			margin-top: 15px;
+			flex-direction: row;
+		}
+		.part1{
+/*			border: 2px solid;*/
+			height: 180px;
+			width: 1300px;
+			margin-top: 20px;
+			margin-left: 100px;
+		}
+		.part2{
+/*			border: 2px solid;*/
+			display: flex;
+			height: 470px;
+			width: 1300px;
+			margin-top: 30px;
+			margin-left: 100px;
+			justify-content: space-between;
+		}
+		.boxes{
+			display: flex;
+			gap: 35px;
+		}
+		.box1{
+/*			border: 2px solid black;*/
+			width: 295px;
+			gap: 10px;
+			background-color: white;
+		}
+		#seemore{
+			height: 50px;
+			width: 200px;
+			background-color: skyblue;
+			color: white;
+			border-radius: 50px;
+			margin-left: 50px;
+			font-size: 20px;
+			border-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+		<div class="mainpage">
+			
+			<div class="titlebar">
+				<div class="logo">
+
+					<div><img src="guitar img.png" height="50px" ></div>
+
+					<div>SoundAMP</div>
+
+				
+					<div class="manu">
+						<div class="option">
+							<select>
+								<option disabled selected>HTML Templates</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="option">
+							<select>
+								<option disabled selected>More HTML Templates</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div><input type="button" id="download" value="DOWNLOAD NOW"></div>
+						<div><img src="D:\SEM 2\WEB DESIGHING\IMAGES\icons8-instagram-48.png" style="margin-top: 11px;"></div>
+						<div><img src="D:\SEM 2\WEB DESIGHING\IMAGES\icons8-twitter-48.png" style="margin-top: 11px;"></div>
+						<div><img src="D:\SEM 2\WEB DESIGHING\IMAGES\icons8-pinterest-48.png" style="margin-top: 11px;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="content">
+				
+				<div class="part1">
+					<div class="image"><img src="event img.png" height="180px" width="1300px"></div>
+				</div>
+				<div class="part2">
+					<div class="boxes">
+
+						<div class="box1"><img src="music img.png" height="200px" width="295px">09/05/2018<h1>Live Music</h1><h5>#live #rock #alternative</h5><h3>
+						Special event for our rock fans!
+						Live music show.</h3><input type="button" id="seemore" value="See more..."></div>
+
+						<div class="box1"><img src="night img.png" height="200px" width="295px">10/05/2018<h1>Night Laser Show</h1><h5>#hip-hop #rnb #dance</h5><h3>
+						We are happy to announce this special laser show.</h3><input type="button" id="seemore" value="See more..."></div>
+
+						<div class="box1"><img src="dj img.png" height="200px" width="295px">11/05/2018<h1>DJ - Master Class</h1><h5>#dj #master-class</h5><h3>
+						DJ Woodsmell will teach you new tricks: please sign up.</h3><input type="button" id="seemore" value="See more..."></div>
+
+						<div class="box1"><img src="party img.png" height="200px" width="295px">12/05/2018<h1>Best Night Party</h1><h5>#party #club #dance</h5><h3>
+						Our traditional event: best hits all night long.</h3><input type="button" id="seemore" value="See more..."></div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+</body>
+</html>
